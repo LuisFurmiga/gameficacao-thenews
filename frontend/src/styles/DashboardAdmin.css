@@ -1,0 +1,90 @@
+/* frontend/src/pages/DashboardAdmin.css */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 50px 0px 0px 0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.stats-container h2 {
+    font-size: 24px;
+    color: #FFC107;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stats-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.ranking-table th,
+.ranking-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.ranking-table th {
+    background-color: #FFC107;
+    color: #fff;
+}
+
+.ranking-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.filters {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.filters label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.filters select,
+.filters input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #E64A19;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

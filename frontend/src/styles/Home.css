@@ -1,0 +1,65 @@
+/* frontend/src/pages/Home.css */
+.home-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 5vh auto 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+}
+
+.home-container .content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.home-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.home-container p {
+    font-size: 16px;
+    color: #666;
+}
+
+.home-buttons {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-buttons .btn {
+    background-color: #ffce04;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.home-buttons .btn:hover {
+    background-color: #e6b800;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .home-container {
+        width: 100%;
+    }
+}
+

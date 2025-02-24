@@ -1,0 +1,50 @@
+/* frontend/src/styles/Header.css */
+
+.header {
+    background: #615a5a;
+    color: white;
+    padding: 0px 0;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Mantém acima dos outros elementos */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    padding-right: 150px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e6b800;
+}

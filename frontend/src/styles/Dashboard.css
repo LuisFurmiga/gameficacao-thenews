@@ -1,0 +1,86 @@
+/* frontend/src/pages/Dashboard.css */
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 60px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    height: 105vh;
+    display: block;
+}
+
+.stats-container {
+    background-color: #f8f9fa;
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.stats-container h2 {
+    color: #ffce04;
+    border-bottom: 2px solid #240E0B;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.stats-container p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.motivation {
+    font-weight: bold;
+    font-size: 18px;
+    color: #388e3c;
+    margin-top: 15px;
+}
+
+/* Estilização da tabela */
+.reading-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.reading-table th, .reading-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.reading-table th {
+    color: #ffce04;
+    background-color: #615a5a;
+    font-weight: bold;
+}
+
+.reading-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.reading-table tr:hover {
+    background-color: #ddd;
+}
+
+/* Botão de Logout */
+.logout-button {
+    background-color: #ffce04;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
